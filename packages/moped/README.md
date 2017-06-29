@@ -1,4 +1,4 @@
-# create-react-app
+# moped
 
 This package includes the global command for [Create React App](https://github.com/facebookincubator/create-react-app).<br>
 Please refer to its documentation:
