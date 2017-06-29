@@ -8,10 +8,10 @@
 
 <!--
   If you answered "Yes":
-  
+
     Please note that your issue will be fixed much faster if you spend about
     half an hour preparing it, including the exact reproduction steps and a demo.
-    
+
     If you're in a hurry or don't feel confident, it's fine to report bugs with
     less details, but this makes it less likely they'll get fixed soon.
 
@@ -34,7 +34,7 @@
     npm -v
 
   If it is 5.x, please be aware that it has more than 50 known bugs, and
-  is not guaranteed to work with Create React App.
+  is not guaranteed to work with Moped.
 
   If it's not starting with 4, try to install npm 4.x:
 
@@ -59,13 +59,13 @@
   There are a few common documented problems, such as watcher not detecting changes, or build failing.
   They are described in the Troubleshooting section of the User Guide:
 
-  https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#troubleshooting
+  https://github.com/mopedjs/moped/blob/master/packages/moped-scripts/template/README.md#troubleshooting
 
   Please scan these few sections for common problems.
   Additionally, you can search the User Guide itself for something you're having issues with:
-  
-  https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
-  
+
+  https://github.com/mopedjs/moped/blob/master/packages/moped-scripts/template/README.md
+
   If you didn't find the solution, please share which words you searched for.
   This helps us improve documentation for future readers who might encounter the same problem.
 -->
@@ -79,10 +79,12 @@
   Please fill in all the relevant fields by running these commands in terminal.
 -->
 
-1. `node -v`: 
+1. `node -v`:
 2. `npm -v`:
 3. `yarn --version` (if you use Yarn):
-4. `npm ls react-scripts` (if you haven’t ejected): 
+4. `npm ls moped-scripts` (if you haven’t ejected): 
+4. `yarn --version` (if you use Yarn):
+3. `npm ls moped-scripts` (if you haven’t ejected):
 
 Then, specify:
 
@@ -99,9 +101,9 @@ Then, specify:
 
 (Write your steps here:)
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 
 ### Expected Behavior
@@ -148,11 +150,11 @@ Then, specify:
 
 <!--
   What happens if you skip this step?
-  
+
   We will try to help you, but in many cases it is impossible because crucial
   information is missing. In that case we'll tag an issue as having a low priority,
   and eventually close it if there is no clear direction.
-  
+
   We still appreciate the report though, as eventually somebody else might
   create a reproducible example for it.
 
